@@ -84,7 +84,7 @@ var Typer = {
 };
 
 Typer.speed = 3;
-Typer.file = 'CodeNerve.html';
+Typer.file = 'Portfolio.html';
 Typer.init();
 
 var timer = setInterval('t();', 30);
