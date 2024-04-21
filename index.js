@@ -13,6 +13,7 @@ var Typer = {
         $.get(Typer.file, function (data) {
             Typer.text = data;
             Typer.text = Typer.text.slice(0, Typer.text.length - 1);
+            Typer.write(Typer.text);
             clearInterval(accessCountimer);
         });
     },
